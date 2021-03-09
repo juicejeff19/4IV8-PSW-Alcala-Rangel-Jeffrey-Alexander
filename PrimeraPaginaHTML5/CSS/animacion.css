@@ -28,3 +28,29 @@ vamos a hacer girar, alternar y transformar
          }
 }
 
+/*
+vamos a dar las reglas de las clases
+*/
+.label-container {
+    width: 100%;
+    padding: 1rem;
+    /*border: 2px solid rgb(55,55,55);*/
+    box-sizing: border-box;
+}
+
+.label{
+    width: 64px;
+    background-color: rgb(60,189,85);
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    /*aqui es donde animamos*/
+    animation-name: label-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
