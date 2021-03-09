@@ -79,7 +79,6 @@ vamos a dar las reglas de las clases
     color: white;
     text-align: center;
     height: 200px;
-    display: flex;
     justify-content: center;
     align-items: center;
     animation-name: animacion_test;
@@ -87,4 +86,5 @@ vamos a dar las reglas de las clases
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
+
 
