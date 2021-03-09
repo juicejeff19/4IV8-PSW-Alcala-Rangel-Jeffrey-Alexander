@@ -8,3 +8,7 @@
 html, body{
     background-color: cadetblue;
 }
+
+.main-container{
+    border: 4px solid rgb(250,122,0);
+}
