@@ -6,7 +6,7 @@ vamos a hacer girar, alternar y transformar
     from{
         background-color: red;
     }to{
-    background-color: yellow;
+    background-color: #a8ca2c;
          }
 }
 
@@ -52,5 +52,39 @@ vamos a dar las reglas de las clases
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+.loader{
+    width: 64px;
+    height: 64px;
+    border: 5px solid crimson;
+    border-top: 5px solid greenyellow;
+    border-radius: 50%;
+    animation: girar 2s linear infinite;
+}
+
+.loader-doble{
+    width: 64px;
+    height: 64px;
+    border: 16px solid #1496dc;
+    border-top: 16px solid #db8214;
+    border-bottom: 16px solid #c0ff00;
+    border-radius: 50%;
+    animation: girar 2s ease-in-out infinite;
+}
+
+.animada{
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animacion_test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
