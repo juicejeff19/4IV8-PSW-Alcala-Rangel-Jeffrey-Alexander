@@ -1,8 +1,8 @@
 :root {
     --body-bg-color: #6cc7f5;
-    --text-color: #000;
-    --hr-color: #1991e2;
-    --red: #e21010;
+    --text-color: #e0e4e4;
+    --hr-color: #237891;
+    --red: #e74c3c;
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 a {
@@ -20,8 +20,10 @@ a {
 }
 
 body {
+    margin: 30px 0;
     font: 22px sans-serif;
-    background: #e0e0e0;
+    background: var(--body-bg-color);
+    color: var(--text-color);
 }
 
 hr {
@@ -74,36 +76,38 @@ hr {
 }
 
 .menu a:hover span:last-child,
-menu[data-animation] a:hover span:last-child {
+.menu[data-animation] a:hover span:last-child {
     transform: none;
 }
 
 /*animaciones*/
-.menu[data-animation = "to-top"] a span:last-child {
+
+.menu[data-animation="to-top"] a span:last-child {
     transform: translateY(100%);
 }
 
-.menu[data-animation="to-top"] a span:first-child {
+.menu[data-animation="to-top"] a:hover span:first-child {
     transform: translateY(-100%);
 }
 
-.menu[data-animation = "to-right"] a span:last-child {
-    transform: translateX(100%);
-}
-
-.menu[data-animation="to-right"] a span:first-child {
+.menu[data-animation="to-right"] a span:last-child {
     transform: translateX(-100%);
 }
 
-.menu[data-animation = "to-left"] a span:last-child {
+.menu[data-animation="to-right"] a:hover span:first-child {
     transform: translateX(100%);
 }
 
-.menu[data-animation="to-left"] a span:first-child {
+.menu[data-animation="to-left"] a span:last-child {
+    transform: translateX(100%);
+}
+
+.menu[data-animation="to-left"] a:hover span:first-child {
     transform: translateX(-100%);
 }
 
-/*pie de pagina*/
+/*las patitas wiiii*/
+
 .page-footer {
     position: absolute;
     bottom: 10px;
