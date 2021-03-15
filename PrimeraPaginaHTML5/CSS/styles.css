@@ -140,7 +140,7 @@ body{
 .resume .resume_right{
     width: 520px;
     background: #fff;
-    padding: 25px;
+    padding: 23px;
 }
 
 .resume .resume_right .bold{
@@ -222,6 +222,22 @@ body{
 
 .resume .resume_right .resume_hobby ul li:last-child:before{
     display: none;
+}
+
+nav{
+    border: 4px solid #0bb5f4;
+    border-radius: 28%;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.letrapeque{
+    font-size: 10px;
+}
+
+footer{
+    text-align: center;
 }
 
 /*hOLA*/
