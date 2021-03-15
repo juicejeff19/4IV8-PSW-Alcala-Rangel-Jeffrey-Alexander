@@ -113,6 +113,10 @@ body{
     width: 25%;
 }
 
+.resume .resume_left .resume_skills ul li .skill_name{
+    width: 15%;
+}
+
 .resume .resume_left .resume_skills ul li .skill_progress{
     width: 60%;
     margin: 0 5px;
