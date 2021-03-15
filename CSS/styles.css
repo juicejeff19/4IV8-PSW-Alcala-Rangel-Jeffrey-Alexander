@@ -21,8 +21,8 @@ body{
 }
 
 .semi_bold{
-    font-weight: 300;
-    font-size: 13px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .resume{
@@ -177,7 +177,8 @@ body{
     border: 3px solid #0bb5f4;
 }
 
-.resume .resume_right .resume_work ul li:after, .resume .resume_right .resume_education ul li:after{
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after{
     content: "";
     position: absolute;
     top: 14px;
