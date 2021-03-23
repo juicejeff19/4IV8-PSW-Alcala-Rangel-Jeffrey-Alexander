@@ -1,0 +1,33 @@
+.td_sup{
+    align-items: left;
+    width: 100px;
+    justify-content: left;
+}
+
+.td_inf{
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.input-text{
+    align-items: center;
+    justify-content: center;
+    size: 12px;
+    border-width: 2px;
+    border-style: solid;
+    color: #009900;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+
+*{
+    background-color: #6cc7f5;
+}
+
+p{
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
