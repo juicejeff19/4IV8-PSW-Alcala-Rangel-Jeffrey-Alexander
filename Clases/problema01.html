@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Problema01 JS</title>
     <link rel="stylesheet" href="CSS/problemas.css">
+    <script src="JS/problema01.js"></script>
 </head>
 <body>
 <p>
@@ -14,26 +15,26 @@
 </p>
 
 <form method="post" name="formulario" action="">
-    <table>
+    <table align="center" border="1">
         <tr>
             <td class="td_sup">Introduce la cantidad a invertir: $</td>
             <td class="td_inf"><input type="text" name="cantidad"
-                onkeypress=""></td>
+                onkeypress="return validarn(event)"></td>
         </tr>
         <tr>
             <td></td>
             <td class="td_inf"><input type="button" value="interes" name="enviar"
-                onclick=""> </td>
+                onclick="interes()"> </td>
         </tr>
         <tr>
             <td class="td_sup">Su saldo total con interes al 2% es: </td>
             <td> <input type="text" name="sueldoti"
-            id="cantidadi" readonly class="input-text"> ></td>
+            id="cantidadi" readonly class="input-text"></td>
         </tr>
         <tr>
             <td></td>
             <td><input type="button" value="borra" name="borrar"
-            onclick=""> </td>
+            onclick="borrar()"> </td>
         </tr>
     </table>
 </form>
