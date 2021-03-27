@@ -135,6 +135,29 @@ body{
     height: 200px;
 }
 
+.left .abajo{
+    display: flex;
+    padding-top: 12rem;
+    width: 700px;
+    height: auto;
+}
+
+.left .mestizo{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+.left .mestizo .image img{
+    width: 400px;
+    height: 300px;
+}
+
+.left .abajo .info{
+    padding-top: 1rem;
+    padding-left: 8rem;
+}
+
 .right{
     margin-left: 80px;
     padding: 1rem;
