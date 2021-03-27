@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 * {
+
     box-sizing: border-box;
     list-style: none;
     font-family: 'Pangolin', cursive;
@@ -75,25 +76,30 @@ body{
 
 .cuerpo{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     padding-top: 30px;
 }
 
 /*aqui empieza la parte de la izquierda*/
 
 .left{
+    display: flex;
+    flex-wrap: wrap;
     width: 70%;
 }
 
 .left .races{
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
     display: flex;
 }
 .left .races .westie{
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: auto;
     margin: 20px;
 }
 
@@ -103,8 +109,8 @@ body{
 }
 
 .left .races .shiba{
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: auto;
     margin: 20px;
 }
 
@@ -114,8 +120,8 @@ body{
 }
 
 .left .races .maltese{
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: auto;
     margin: 20px;
 }
 
@@ -125,8 +131,8 @@ body{
 }
 
 .left .races .yorkshire{
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: auto;
     margin: 20px;
 }
 
@@ -135,38 +141,39 @@ body{
     height: 200px;
 }
 
-.left .abajo{
-    display: flex;
-    padding-top: 12rem;
-    width: 700px;
-    height: auto;
-}
 
 .left .mestizo{
-    width: 300px;
-    height: 200px;
-    margin: 20px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .left .mestizo .image img{
+    display: flex;
+    align-content: center;
+    alignment: center;
+    align-items: center;
     width: 400px;
     height: 300px;
 }
 
-.left .abajo .info{
-    padding-top: 1rem;
-    padding-left: 8rem;
+.left .races .mestizo .info{
+    width: 300px;
 }
 
 .right{
-    margin-left: 80px;
+    width: 29%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
     padding: 1rem;
     border: 13px solid #0bb5f4;
+    height: 450px;
 }
 
 .right .menu{
-    height: 100%;
-    width: 100%;
     border: 3px solid #1ADBC8;
 }
 
