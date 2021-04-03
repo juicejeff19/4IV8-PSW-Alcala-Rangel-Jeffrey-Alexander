@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problema Secuencial 1</title>
+    <title>Problema Secuencial 3</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/ps1.js"></script>
+    <script src="JS/ps4.js"></script>
 </head>
 <body>
 <nav>
@@ -15,10 +15,10 @@
         <li>
             <a href="#">Problemas Secuenciales</a>
             <ul>
-                <li><a href="index.html">Menú</a></li>
+                <li><a href="ps1.html">Ejercicio 1</a></li>
                 <li><a href="ps2.html">Ejercicio 2</a></li>
                 <li><a href="ps3.html">Ejercicio 3</a></li>
-                <li><a href="ps4.html">Ejercicio 4</a></li>
+                <li><a href="index.html">Menú</a></li>
                 <li><a href="">Ejercicio 5</a></li>
                 <li><a href="">Ejercicio 6</a></li>
             </ul>
@@ -38,16 +38,24 @@
     <form method="post" name="formulario">
         <table class="tabla" border="1">
             <tr>
-                <td class="td_sup">Introduce la cantidad a invertir : $</td>
-                <td class="td_inf"><input type="number" name="cantidad"></td>
+                <td class="td_sup">Ingrese la sumatoria de sus calificaciones Parciales :</td>
+                <td class="td_inf"><input type="number" name="parciales"></td>
+            </tr>
+            <tr>
+                <td>Ingrese su calificación del examen: </td>
+                <td><input type="number" name="examen"></td>
+            </tr>
+            <tr>
+                <td>Ingrese la calificación de su trabajo final: </td>
+                <td><input type="number" name="tFinal"></td>
             </tr>
             <tr>
                 <td></td>
-                <td class="td_inf"><input type="button" value="interes" name="enviar" onclick="interes()"></td>
+                <td><input type="button" value="Validar" name="Validar" onclick="cal()"></td>
             </tr>
             <tr>
-                <td class="td_sup">Su saldo total con interes al 2% es:</td>
-                <td><input type="text" name="sueldoti" id="cantidadi" readonly="readonly" class="input_text"></td>
+                <td class="td_sup">Su calificación final es de: </td>
+                <td><input type="text" name="calificacionFinal" id="cantidadi" readonly="readonly" class="input_text"></td>
             </tr>
             <tr>
                 <td></td>
