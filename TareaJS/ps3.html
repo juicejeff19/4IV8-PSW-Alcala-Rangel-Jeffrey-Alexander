@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú</title>
+    <title>Problema Secuencial 3</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <script src="JS/ps3.js"></script>
 </head>
 <body>
 <nav>
@@ -17,7 +17,7 @@
             <ul>
                 <li><a href="ps1.html">Ejercicio 1</a></li>
                 <li><a href="ps2.html">Ejercicio 2</a></li>
-                <li><a href="ps3.html">Ejercicio 3</a></li>
+                <li><a href="index.html">Menú</a></li>
                 <li><a href="">Ejercicio 4</a></li>
                 <li><a href="">Ejercicio 5</a></li>
                 <li><a href="">Ejercicio 6</a></li>
@@ -34,21 +34,30 @@
         </li>
     </ul>
 </nav>
-<main>
-    <section class="presentation">
-        <div class="introduction">
-            <div class="intro-text">
-                <h1>Hola gamer</h1>
-                <p>Let's get this bread</p>
-            </div>
-        </div>
-        <div class="cover">
-            <img src="IMG/doge.png" alt="doge">
-        </div>
-    </section>
+<main class="main2">
+    <form method="post" name="formulario">
+        <table class="tabla" border="1">
+            <tr>
+                <td class="td_sup">Ingrese el total de su compra : $</td>
+                <td class="td_inf"><input type="number" name="total1"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="td_inf"><input type="button" value="Descuento" name="des" onclick="desc()"></td>
+            </tr>
+            <tr>
+                <td class="td_sup">Su saldo total con descuento del 15% es de:</td>
+                <td><input type="text" name="totalcondesc" id="cantidadi" readonly="readonly" class="input_text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Borrar" name="reset" onclick="borrar()"></td>
+            </tr>
+        </table>
+    </form>
+</main>
 <img class="big-circle" src="IMG/big-eclipse.svg" alt="">
 <img class="medium-circle" src="IMG/mid-eclipse.svg" alt="">
 <img class="small-circle" src="IMG/small-eclipse.svg" alt="">
-</main>
 </body>
 </html>
