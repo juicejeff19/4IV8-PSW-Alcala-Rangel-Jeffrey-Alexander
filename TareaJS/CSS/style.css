@@ -161,3 +161,22 @@ nav ul ul ul li{
     filter: drop-shadow(0px 5px 3px #000000);
     animation: drop 1.5s ease;
 }
+
+main{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 200px;
+    height: auto;
+}
+
+form{
+    padding: 1rem;
+    border: solid #555555;
+    background: rgba(50,50,50,0.18);
+}
+
+table.tabla{
+    margin-right: auto;
+    margin-left: auto;
+}
