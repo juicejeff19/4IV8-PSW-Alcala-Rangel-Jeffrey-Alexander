@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problema Secuencial 1</title>
+    <title>Problema Secuencial 2</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/ps1.js"></script>
+    <script src="JS/ps2.js"></script>
 </head>
 <body>
 <nav>
@@ -15,8 +15,8 @@
         <li>
             <a href="#">Problemas Secuenciales</a>
             <ul>
+                <li><a href="ps1.html">Ejercicio 1</a></li>
                 <li><a href="index.html">Menú</a></li>
-                <li><a href="ps2.html">Ejercicio 2</a></li>
                 <li><a href="">Ejercicio 3</a></li>
                 <li><a href="">Ejercicio 4</a></li>
                 <li><a href="">Ejercicio 5</a></li>
@@ -38,16 +38,28 @@
     <form method="post" name="formulario">
         <table class="tabla" border="1">
             <tr>
-                <td class="td_sup">Introduce la cantidad a invertir : $</td>
-                <td class="td_inf"><input type="number" name="cantidad"></td>
+                <td class="td_sup">Ingrese su sueldo base : $</td>
+                <td class="td_inf"><input type="number" name="suelBase"></td>
+            </tr>
+            <tr>
+                <td class="td_sup">Ingrese la cantidad de su primera venta : $</td>
+                <td class="td_inf"><input type="number" name="primVent"></td>
+            </tr>
+            <tr>
+                <td class="td_sup">Ingrese la cantidad de su segunda venta : $</td>
+                <td><input type="number" name="segVent"></td>
+            </tr>
+            <tr>
+                <td>Ingrese la cantidad de su tercera venta : $</td>
+                <td><input type="number" name="terVent"></td>
             </tr>
             <tr>
                 <td></td>
-                <td class="td_inf"><input type="button" value="interes" name="enviar" onclick="interes()"></td>
+                <td><input type="button" value="calcular" name="calcularsueldo" onclick="calcular()"></td>
             </tr>
             <tr>
-                <td class="td_sup">Su saldo total con interes al 2% es:</td>
-                <td><input type="text" name="sueldoti" id="cantidadi" readonly="readonly" class="input_text"></td>
+                <td>Tu sueldo perceptible será de: $</td>
+                <td><input type="text" name="sueldoper" id="cantidaper" readonly="readonly" class="input_text"></td>
             </tr>
             <tr>
                 <td></td>
