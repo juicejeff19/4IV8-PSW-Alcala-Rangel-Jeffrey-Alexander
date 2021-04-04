@@ -2,9 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSC 1</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/psc3.js"></script>
 </head>
 <body>
-
+<nav>
+    <div class="logo">Alcalá Rangel J.</div>
+    <ul>
+        <li><a href="../PrimeraPaginaHTML5/index.html">Sobre mí</a></li>
+        <li>
+            <a href="#">Problemas Secuenciales</a>
+            <ul>
+                <li><a href="../ps1.html">Ejercicio 1</a></li>
+                <li><a href="../ps2.html">Ejercicio 2</a></li>
+                <li><a href="../ps3.html">Ejercicio 3</a></li>
+                <li><a href="../ps4.html">Ejercicio 4</a></li>
+                <li><a href="../ps5.html">Ejercicio 5</a></li>
+                <li><a href="../ps6.html">Ejercicio 6</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Problemas Selectivos Compuestos</a>
+            <ul>
+                <li><a href="../PSC/psc1.html">Ejercicio 1</a></li>
+                <li><a href="../PSC/psc2.html">Ejercicio 2</a></li>
+                <li><a href="../index.html">Menú</a></li>
+                <li><a href="../PSC/psc4.html">Ejercicio 4</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<main class="main2">
+    <form method="post" name="formulario">
+        <table class="tabla" border="1">
+            <tr>
+                <td class="td_sup">Ingresa el numero de horas trabajadas : </td>
+                <td class="td_inf"><input type="number" name="horas"></td>
+            </tr>
+            <tr>
+                <td>Ingresa el pago por hora</td>
+                <td><input type="number" name="porhora"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="td_inf"><input type="button" value="Calcular" name="enviar" onclick="hours()"></td>
+            </tr>
+            <tr>
+                <td class="td_sup">El pago total es de : </td>
+                <td><input type="text" name="pagototal" id="cantidadi" readonly="readonly" class="input_text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Borrar" name="reset" onclick="borrar()"></td>
+            </tr>
+        </table>
+    </form>
+</main>
+<img class="big-circle" src="../IMG/big-eclipse.svg" alt="">
+<img class="medium-circle" src="../IMG/mid-eclipse.svg" alt="">
+<img class="small-circle" src="../IMG/small-eclipse.svg" alt="">
 </body>
 </html>
